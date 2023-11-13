@@ -1,0 +1,199 @@
+body {
+    background-color: red;
+    color: #000000;
+  }
+  
+  .arplan{
+    background-image: url(arrplan.png);
+    width: 500px;
+  }
+  
+  header {
+    background-color: #ffffffef;
+    background-image: url("boule.png");
+    color: #ff0101;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  header h3{
+    color: rgb(0, 0, 10);
+  }
+  header p{
+    color: rgb(0, 0, 10);
+    font-size: larger;
+  }
+
+  nav ul {
+    background-image: url(arriereplan.png);
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+    border-style: double;
+    border-radius: 10px 10px 0 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgb(8, 8, 8);
+}
+
+.box {
+  border: solid;
+  border-radius: 10px;
+  border-color: #ffd700;
+  border-style: groove;
+  background-color: rgb(77, 5, 247);
+}
+
+.box2{
+  text-decoration: double;
+  color: #04ff43;
+  border: solid;
+  border-radius: 10px;
+  border-color: #ffd700;
+  border-style: groove;
+  background-color: rgb(76, 0, 253);
+}
+
+  .csm{
+    text-align: center;
+    border-style: ridge;
+    border-color: #ffd700;
+    text-shadow: 8px 8px 6px rgb(5, 9, 247);
+  }
+
+  .csm1{
+    border-radius: 50px;
+    margin-top: -10px;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .px{
+    height: 110px;
+    width: 110px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .image {
+    height: 100px;
+    width: 100px;
+    padding-left: 650px;
+    padding-bottom: -5px;
+  }
+  
+  .produits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .promotions {
+    margin-top: 20px;
+  }
+  
+  .contact {
+    margin-top: 20px;
+  }
+  
+  .noel {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+  }
+  
+  .noel a {
+    color: #000000;
+  }
+  
+  .noel a:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  
+  .noel img {
+    max-width: 100%;
+  }
+  
+  .noel h2 {
+    color: #000000;
+  }
+  
+  .noel p {
+    color: #000000;
+  }
+  
+  .noel ul {
+    list-style-type: none;
+    padding-top: 0;
+    margin: 0;
+  }
+  
+  .noel li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .noel li a {
+    color: #000000;
+  }
+  
+  .noel li a:hover {
+    color: #21fc04;
+    background-color: #000000;
+  }
+  
+  .noel .produits {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .noel .promotions {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .noel .contact {
+    background-color: #000000;
+  }
+
+  footer {
+    background-color: #080808e7;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+.ligne_image{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone{
+  height: 30px;
+  width: 30px;
+}
+
+.credit h2{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
