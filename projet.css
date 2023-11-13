@@ -2,12 +2,7 @@ body {
     background-color: red;
     color: #000000;
   }
-  
-  .arplan{
-    background-image: url(arrplan.png);
-    width: 500px;
-  }
-  
+
   header {
     background-color: #ffffffef;
     background-image: url("boule.png");
